@@ -42,7 +42,7 @@ document.getElementById("services").innerHTML = SERVICES.map(s => `<article clas
    alt: "..."      -> descrição da imagem (opcional) */
 const PROJECTS = [
     { n: "Alma Estética", mock: "Agende seu horário", c: "Landing Pages", d: "Landing page para um estúdio fictício de estética, com foco em agendamento.", conceito: true, url: "https://nexttech-studio.github.io/alma-estetica-landing-page/", img: "images/alma-estetica.webp" },
-    { n: "Maria Heloisa - Designer de Cílios", mock: "Agende seu horário", c: "Landing Pages", d: "Landing page portfólio para designer de cílios, com foco em demonstração de trabalhos e agendamentos pelo WhatsApp.", conceito: false, url: "https://nexttech-studio.github.io/portfolio-maria-dc/", img: "images/portfolio_maria_heloisa.webp" },
+    { n: "FinMei", mock: "FinMei", c: "Landing Pages", d: "Landing page para um produto de finanças, focado em controle financeiro para MEIs", conceito: true, url: "https://nexttech-studio.github.io/finmei-landing-page/", img: "images/finmei.webp" },
     { n: "Contábil Prisma", mock: "Contabilidade clara", c: "Sites Institucionais", d: "Site institucional conceitual para escritório de contabilidade, com serviços e contato.", conceito: true, url: "#" }
 ];
 const CATS = ["Todos", "Landing Pages", "Sites Institucionais", "E-commerce", "Redesign"];
