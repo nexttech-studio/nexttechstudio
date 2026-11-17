@@ -43,7 +43,7 @@ document.getElementById("services").innerHTML = SERVICES.map(s => `<article clas
 const PROJECTS = [
     { n: "Alma Estética", mock: "Agende seu horário", c: "Landing Pages", d: "Landing page para um estúdio de estética, com foco em demonstração de serviços e agendamento.", conceito: true, url: "https://nexttech-studio.github.io/alma-estetica-landing-page/", img: "images/alma-estetica.webp" },
     { n: "FinMei", mock: "FinMei", c: "Landing Pages", d: "Landing page para um produto de finanças, focado em controle financeiro para MEIs", conceito: true, url: "https://nexttech-studio.github.io/finmei-landing-page/", img: "images/finmei.webp" },
-    { n: "BrightSolar", mock: "Energia Solar", c: "Sites Institucionais", d: "Site institucional conceitual para empresa de energia solar, com serviços, informações e contato.", conceito: true, url: "https://nexttech-studio.github.io/brightsolar/", img: "images/brightsolar.webp" }
+    { n: "BrightSolar", mock: "Energia Solar", c: "Sites Institucionais", d: "Site institucional conceitual para empresa de energia solar, com serviços, informações e contato.", conceito: true, url: "https://nexttech-studio.github.io/BrightSolar/", img: "images/brightsolar.webp" }
 ];
 const CATS = ["Todos", "Landing Pages", "Sites Institucionais", "E-commerce", "Redesign"];
 const tabs = document.getElementById("tabs"), pg = document.getElementById("projects");
